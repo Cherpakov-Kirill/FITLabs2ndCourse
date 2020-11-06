@@ -1,0 +1,44 @@
+/*int main() {
+    tritSet setA(3);
+    tritSet setB(3);
+
+    setA[0] = trit::Unknown;
+    setA[1] = trit::Unknown;
+    setA[2] = trit::Unknown;
+
+    setB[0] = trit::True;
+    setB[1] = trit::False;
+    setB[2] = trit::Unknown;
+
+    tritSet setT = !setB;
+
+    tritSet setC = setA | setB;
+
+    tritSet set(17);
+    set.setTrit(trit::True, 5);
+    set.setTrit(trit::False, 32);
+    set.setTrit(trit::Unknown, 50);
+    set.setTrit(trit::True, 51);
+    set.printAllTrits();
+    set[6] = trit::True;
+    set.setTrit(trit::Unknown, 51);
+    set.printAllTrits();
+
+
+    trit value = set.getValueOfTrit(1);
+    value = set.getValueOfTrit(5);
+    value = set.getValueOfTrit(32);
+    value = set.getValueOfTrit(30);
+    value = set.getValueOfTrit(50);
+    value = set.getValueOfTrit(48);
+    value = set.getValueOfTrit(458);
+
+
+
+    set.printAllTrits();
+    set.trim();
+    set.printAllTrits();
+    set.shrink();
+    set.printAllTrits();
+    return 0;
+}*/
